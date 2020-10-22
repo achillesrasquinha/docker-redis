@@ -22,7 +22,7 @@ $ docker run --rm -it --name redis -d achillesrasquinha/redis
 #### Usage
 
 ```shell
-$ docker exec -it {{ container_name }} "<command>"
+$ docker exec -it redis "<command>"
 ```
 
 ### License
