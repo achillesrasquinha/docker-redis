@@ -1,13 +1,13 @@
-### Docker {{ name }}
+### Docker for Redis
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/{{ docker_hub_username }}/{{ docker_hub_repo }}.svg)](https://hub.docker.com/r/{{ docker_hub_username }}/{{ docker_hub_repo }})
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/achillesrasquinha/redis.svg)](https://hub.docker.com/r/achillesrasquinha/redis)
 
-> {{ description }}
+> A docker for redis, but better.
 
 ### Usage
 
 ```shell
-$ docker run --rm -it {{ docker_hub_username }}/{{ docker_hub_repo }}
+$ docker run --rm -it --name redis -d achillesrasquinha/redis
 ```
 
 ### License
